@@ -53,6 +53,10 @@ theorem — no `sorryAx`, no `sorry` anywhere.
 | `Continuation.lean` | the future failure set; union of nowhere dense sets |
 | `Main.lean` | `hardin_taylor`, `hardin_taylor_full` |
 
+## License
+
+MIT — see [LICENSE](LICENSE).
+
 ## References
 
 * C. Hardin, A. Taylor. *A peculiar connection between the axiom of choice and
