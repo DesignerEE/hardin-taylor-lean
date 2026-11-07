@@ -70,6 +70,8 @@ right-neighbourhood of `s`, then for `s < t` the candidate `g_t` agrees with
 `f` on the whole interval `(s, t)`, so `g_s ≠ g_t`, and the climb is strict
 again.
 
+![Failure times strictly climb the well-order](figures/climb.svg)
+
 **5. A well-ordered set of times is small** (`WellOrdered.lean`). Any subset
 `E ⊆ ℝ` well-ordered by the ordinary order is countable and nowhere dense:
 
@@ -85,6 +87,8 @@ again.
   inside the gap, and the gap is empty. So any interval that touches `E`
   contains a whole subinterval untouched by the closure of `E` — the closure
   contains no interval.
+
+![Why a well-ordered set of times is small](figures/gaps.svg)
 
 **6. Assemble** (`Exceptional.lean`, `Continuation.lean`, `Main.lean`). The
 present-value failure set is well-ordered by step 4, hence countable and
