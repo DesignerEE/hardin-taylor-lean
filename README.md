@@ -108,6 +108,16 @@ non-constructive — `r` cannot be written down, which is precisely the
 "peculiar connection between the axiom of choice and predicting the future"
 of the paper's title.
 
+**A note on quantum speedups.** This theorem is purely existential set
+theory — it says nothing about quantum computation. A separate line of work
+in quantum query complexity relates how much individual input bits matter
+(their *influence*) to possible speedups: for total Boolean functions quantum
+query speedup is at most polynomial; more generally, low-influence acceptance
+polynomials can be simulated classically ([Bansal, Sinha, de Wolf, CCC
+2022](https://arxiv.org/abs/2203.00212)) — so exponential speedups require
+structure, such as influential input variables ([Aaronson,
+Ambainis](https://theoryofcomputing.net/articles/v010a006/v010a006.pdf)).
+
 ## Building
 
 Requires [elan](https://github.com/leanprover/elan). Toolchain
